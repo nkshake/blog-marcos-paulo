@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menssagem de Boas-vindas -->
+     <div class="Boas-vindas">
+         <h1><Bem-vindo ao Nosso Portal de Noticias!</h1>
+         <p>Fique Por Dentro das Ultimas atualizações do Brasil e do mundo.</p>
+     </div>
+
+     <!-- Cabeçalho / menu -->
+      <header>
+          <div class="logo">Mundo Noticias</div>
+          <nav>
+              <a href="#">Inicio</a>
+              <a href="#">Tecnologia</a>
+              <a href="#">Esportes</a>
+              <a href="#">Cultura</a>
+          </nav>
+      </header>
+
+     <!-- Conteudo Principal -->
+     <main class="container">
+
+          <!-- Noticia Principal -->
+           <article class="Noticia-principal">
+                <img src="https://picsum.photos" alt="Imagem da Noticia-principal">
+                <h2>Grande avanço tecnologico promete mudar o mercado de IA este ano</h2>
+                <p>Especialistas apontam que as novas ferramentas vão otimizar o trabalho diario de milhões de pessoas.</p>
+                <a href="#" class="btn">ler mais</a>
+           </article>
+
+           <!-- Noticias Secundarias -->
+           <aside class="moticias-secundarias">
+                <div class="card">
+                    <h3>Final do campeonato quebra recordes de audiência</h3>
+                    <p>O evento esportivo deste fim de semana foi o mais visto da década.</p>
+                </div>
+                <div class="card">
+                     <h3>Festival de cinema começa nesta quarta-feira</h3>
+                     <p>Confira a lista completa de filmes que serão exibidos no evento.</p>
+                </div>
+           </aside>
+
+       </main>
+
+       <!-- Rodapé -->
+       <footer>
+            <p>     
