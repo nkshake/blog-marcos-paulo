@@ -1,5 +1,20 @@
- <!DOCTYPE html>
- <html> lang="pt-BR">
- <head>charset="UTF-8">
-     <title>Site Simples</title>
- </head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Site Simples</title>
+</head>
+<body style="font-family: sans-serif; text-align: center; background: #f0f2f5;">
+
+    <!-- Mensagem de Boas-Vindas -->
+    <div style="background: #007bff; color: white; padding: 20px;">
+        <h1>Bem-vindo ao meu site!</h1>
+    </div>
+
+    <!-- Notícia -->
+    <div style="background: white; margin: 20px; padding: 20px;">
+        <h2>Notícia do Dia</h2>
+        <p>Este é o meu primeiro site básico de notícias.</p>
+    </div>
+
+</body>
+</html>
